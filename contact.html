@@ -11,20 +11,29 @@
 
 <body>
 
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Roman Gifford</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
+    <header>
+        <nav class="navbar bg-light w-100%">
+            <a class="navbar-brand" id="logo" href="index.html"><h1>Roman Gifford</h1></a>
+            <div class="d-flex flex-row align-items-end justify-content-end mr-5" id="navbarsExample04">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                        <!-- I can't for the life of me figure out why the navbar links refuse to unstack on the right side, no matter the screen size. The logo on the left also doesn't want to center the text? I have no idea why this is so much harder for me than the responsive assignment-->
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <div id="main-container" class="container">
+    <div id="main-container" class="container bg-light">
         <section class="main-section">
-            <h1>Contact</h1>
+            <h2>Contact</h2>
 
             <form id="contact-form">
                 <ul>
